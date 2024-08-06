@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(100, 100, 100);    
+}
+
+.requestTable{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.requestRow{
+    background-color: rgb(150,150,150);
+    
+    border-radius: 5px;
+
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.request{
+    background-color: rgb(200,200,200);
+    border-radius: 3px;
+    padding-left: 10px;
+    margin: 0 0 3px 0;
+}
+
+.result{
+    float: right;
+}
