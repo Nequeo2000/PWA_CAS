@@ -1,0 +1,23 @@
+{
+    "name": "PWA Snake",
+    "short_name": "PWA Snake",
+    "icons": [
+        {
+            "src": "./images/icon.png",
+            "sizes": "100x100",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "./images/icon2.png",
+            "sizes": "200x200",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ],
+    "start_url": "./",
+    "id": "/",
+    "display": "standalone",
+    "theme_color": "rgb(0,0,0)",
+    "background_color": "rgb(0,0,0)"
+}

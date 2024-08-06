@@ -80,9 +80,27 @@ function map(x,v1,v2,v3,v4){
     return x*(v4-v3)/(v2-v1);
 }
 
+
+
+
+const registerServiceWorker = () => {
+    if ("serviceWorker" in navigator) {
+        try {
+            navigator.serviceWorker.register("./sw.js").then(e => { console.log(e) });
+
+        } catch (error) {
+            console.error(`Registration failed with ${error}`);
+        }
+    }
+};
+registerServiceWorker();
+
+
+
 /*
 container class for all math stuff?
 */
 
 // plot2d("1+x*x", [0,5], [0,10])
 // plot2d("x^2+Math.sin(x)", [0,20], [0,20])
+
