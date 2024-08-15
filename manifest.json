@@ -1,6 +1,6 @@
 {
-    "name": "PWA Snake",
-    "short_name": "PWA Snake",
+    "name": "PWA CAS",
+    "short_name": "PWA CAS",
     "icons": [
         {
             "src": "./images/icon.png",
